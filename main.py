@@ -1,7 +1,16 @@
 import random
 import logging
 
-logging.basicConfig(filename='app.log', filemode='w', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%m/%d/%Y %I:%M:%S')
+# style notes: indents are standard 4 spaces (PEP8)
+#              except for hanging indents for lists, etc
+#              which are 2 spaces
+
+logging.basicConfig(
+  filename='app.log', 
+  filemode='w', 
+  level=logging.DEBUG, 
+  format='%(asctime)s %(levelname)s: %(message)s', 
+  datefmt='%m/%d/%Y %I:%M:%S')
 logging.info("Logging activity for DiceRoll...")
 
 def getSidesInt():
@@ -38,9 +47,14 @@ while check == "yes" or check == "y" or check == "Yes" or check == "Y":
     if numSides:
         rollDice(numSides)
         check = input("Roll the dice again?:")
-        if check == "yes" or check == "y" or check == "Yes" or check == "Y":
+        if (
+          check == "yes" 
+          or check == "y" 
+          or check == "Yes" 
+          or check == "Y"):
             logging.info("User chose to reroll")
-            diceCheck = input("Would you like to select different dice?:")
+            diceCheck = input(
+              "Would you like to select different dice? ")
             if diceCheck == "yes" or diceCheck == "y" or diceCheck == "Yes" or diceCheck == "Y":
                 logging.info("User wants new dice")
                 numSides = getSidesInt()
