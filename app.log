@@ -1,0 +1,10 @@
+12/24/2021 09:45:46 INFO: Logging activity for DiceRoll...
+12/24/2021 09:45:46 INFO: Requesting input for # of sides per die
+12/24/2021 09:45:47 INFO: Valid input = 5
+12/24/2021 09:45:47 INFO: Rolling dice...
+12/24/2021 09:45:49 INFO: User chose to reroll
+12/24/2021 09:45:50 INFO: User wants new dice
+12/24/2021 09:45:50 INFO: Requesting input for # of sides per die
+12/24/2021 09:45:52 ERROR: Invalid input = f; attempts: 1/3
+12/24/2021 09:45:53 ERROR: Invalid input = f; attempts: 2/3
+12/24/2021 09:45:53 ERROR: Invalid input = f; attempts: 3/3

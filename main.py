@@ -35,13 +35,16 @@ check = "yes"
 diceCheck = "yes"  
 numSides = getSidesInt()
 while check == "yes" or check == "y" or check == "Yes" or check == "Y":
-    rollDice(numSides)
-    check = input("Roll the dice again?:")
-    if check == "yes" or check == "y" or check == "Yes" or check == "Y":
-        logging.info("User chose to reroll")
-        diceCheck = input("Would you like to select different dice?:")
-        if diceCheck == "yes" or diceCheck == "y" or diceCheck == "Yes" or diceCheck == "Y":
-            logging.info("User wants new dice")
-            numSides = getSidesInt()
+    if numSides:
+        rollDice(numSides)
+        check = input("Roll the dice again?:")
+        if check == "yes" or check == "y" or check == "Yes" or check == "Y":
+            logging.info("User chose to reroll")
+            diceCheck = input("Would you like to select different dice?:")
+            if diceCheck == "yes" or diceCheck == "y" or diceCheck == "Yes" or diceCheck == "Y":
+                logging.info("User wants new dice")
+                numSides = getSidesInt()
+        else:
+            logging.info("User chose not to reroll")
     else:
-        logging.info("User chose not to reroll")
+      check = "no"
