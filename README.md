@@ -10,9 +10,11 @@ The user is asked if they would like to roll again. The user must respond with "
 
 If the user chooses to reroll, they are asked if they would like to select new dice with a different number of sides. The user must respond with "yes", "Yes", "y", or "Y" to choose a different set of dice. Any other input will be interpreted as a negative, resulting in a reroll of the previous two dice.
 
-### Example
+### Examples
 
-![A screenshot of the program running in the console](https://github.com/pstapleton1925/DiceScript/blob/main/screenshots/2021-12-26%2016_37_44-pyProjectAmpCAE%20-%20Replit%20%E2%80%94%20Mozilla%20Firefox.png?raw=true)
+![A screenshot of the program running in the console successfully.](https://github.com/pstapleton1925/DiceScript/blob/main/screenshots/2021-12-26%2016_37_44-pyProjectAmpCAE%20-%20Replit%20%E2%80%94%20Mozilla%20Firefox.png?raw=true)
+
+![A screenshot of the program running in the console where the user provided invalid input for all three given attempts.](https://github.com/pstapleton1925/DiceScript/blob/main/screenshots/2021-12-26%2016_38_03-pyProjectAmpCAE%20-%20Replit%20%E2%80%94%20Mozilla%20Firefox.png?raw=true)
 
 ## Libraries, modules, and tools
 
