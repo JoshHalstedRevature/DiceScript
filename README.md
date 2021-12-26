@@ -1,6 +1,6 @@
-Dice roll simulator
+# Dice roll simulator
 
-# Description
+## Description
 
 This project is a simple dice rolling application that rolls two dice with a user-specified number of sides. 
 
@@ -10,11 +10,11 @@ The user is asked if they would like to roll again. The user must respond with "
 
 If the user chooses to reroll, they are asked if they would like to select new dice with a different number of sides. The user must respond with "yes", "Yes", "y", or "Y" to choose a different set of dice. Any other input will be interpreted as a negative, resulting in a reroll of the previous two dice.
 
-# Libraries, modules, and tools
+## Libraries, modules, and tools
 
 This project does not use any external libraries. The Python modules used in this project are random and logging. Pylint was used for code analysis.
 
-# Project requirements:
+## Project requirements:
 -Create a GitHub Repo
 
 -Readme File - Brief desc abt project, Libraries used etc.,
@@ -27,4 +27,5 @@ This project does not use any external libraries. The Python modules used in thi
 
 -Unit testing
 
-### bonus: architecture mapping in readme
+### Bonus: 
+-architecture mapping in readme
