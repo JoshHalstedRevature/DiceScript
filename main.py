@@ -43,19 +43,16 @@ def rollDice(NumSides):
 check = "yes"
 diceCheck = "yes"  
 numSides = getSidesInt()
-while check == "yes" or check == "y" or check == "Yes" or check == "Y":
+#while check == "yes" or check == "y" or check == "Yes" or check == "Y":
+while check in ('yes', 'y', 'Yes', 'Y'):
     if numSides:
         rollDice(numSides)
         check = input("Roll the dice again?:")
-        if (
-          check == "yes" 
-          or check == "y" 
-          or check == "Yes" 
-          or check == "Y"):
+        if check in ('yes', 'y', 'Yes', 'Y'):
             logging.info("User chose to reroll")
             diceCheck = input(
               "Would you like to select different dice? ")
-            if diceCheck == "yes" or diceCheck == "y" or diceCheck == "Yes" or diceCheck == "Y":
+            if diceCheck in ('yes', 'y', 'Yes', 'Y'):
                 logging.info("User wants new dice")
                 numSides = getSidesInt()
         else:
