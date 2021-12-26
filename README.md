@@ -34,4 +34,4 @@ This project does not use any external libraries. The Python modules used in thi
 -Unit testing
 
 ### Bonus
--architecture mapping in readme
+-Architecture mapping in readme
