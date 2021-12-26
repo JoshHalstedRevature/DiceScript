@@ -12,7 +12,7 @@ If the user chooses to reroll, they are asked if they would like to select new d
 
 ### Example
 
-![A screenshot of the program running in the console](./screenshots/2021-12-26 16_37_44-pyProjectAmpCAE - Replit — Mozilla Firefox.png)
+![A screenshot of the program running in the console](https://github.com/pstapleton1925/DiceScript/blob/main/screenshots/2021-12-26%2016_37_44-pyProjectAmpCAE%20-%20Replit%20%E2%80%94%20Mozilla%20Firefox.png?raw=true)
 
 ## Libraries, modules, and tools
 
