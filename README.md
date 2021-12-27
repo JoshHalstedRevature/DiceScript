@@ -18,7 +18,7 @@ If the user chooses to reroll, they are asked if they would like to select new d
 
 ## Libraries, modules, and tools
 
-This project does not use any external libraries. The Python modules used in this project are random and logging. Pylint was used for code analysis.
+This project does not use any external libraries. The Python modules used in this project are random, logging, os, and unittest. Pylint was used for code analysis.
 
 ## Project requirements
 -Create a GitHub Repo
